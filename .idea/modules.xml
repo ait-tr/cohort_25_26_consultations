@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/cohort_25_26_consultations.iml" filepath="$PROJECT_DIR$/.idea/cohort_25_26_consultations.iml" />
       <module fileurl="file://$PROJECT_DIR$/consultations/2023-03-21/code/example/example.iml" filepath="$PROJECT_DIR$/consultations/2023-03-21/code/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Experiments/p_2023_03_21_homework_task1/p_2023_03_21_homework_task1.iml" filepath="$PROJECT_DIR$/../../Experiments/p_2023_03_21_homework_task1/p_2023_03_21_homework_task1.iml" />
     </modules>
   </component>
 </project>
