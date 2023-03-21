@@ -15,7 +15,7 @@ public class Main {
         String example = "I am example";
         System.out.println(example.charAt(2)); // a
         System.out.println(example.length());  // 12
-        // то есть индекс последнего символа = длинна - 1
+        // то есть индекс последнего символа = длина - 1
         int index = example.length() - 1;
         char lastSymbol = example.charAt(index);
         System.out.println(lastSymbol);
