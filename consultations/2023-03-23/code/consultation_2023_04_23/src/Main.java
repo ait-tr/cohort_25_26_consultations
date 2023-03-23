@@ -25,8 +25,8 @@ public class Main {
         // %
 
         System.out.println(9 % 8);   // 1
-        System.out.println(10 % 8); // 2
-        System.out.println(12 % 8); // 4
+        System.out.println(10 % 8);  // 2
+        System.out.println(12 % 8);  // 4
         System.out.println(6 % 10);  // 6
         System.out.println(16 % 10); // 6
         System.out.println(100 % 10);// 0
@@ -63,7 +63,7 @@ public class Main {
         String numberOfStudents = "sdas";  // camelCase иногда lowerCamelCase
         // number_of_students - snake_case  - например в HTML - является популярным
         // number-of-students - kebab-case  - CSS - названия свойств
-        // NUMBER_OF_STUDENTS - SNAKE_CASE  - токая конвенция используется для констант
+        // NUMBER_OF_STUDENTS - SNAKE_CASE  - такая конвенция используется для констант
 
     }
 }
