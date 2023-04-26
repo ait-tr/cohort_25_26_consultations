@@ -16,6 +16,7 @@ public class Main {
 
         */
     }
+
     public static String readIntoString(String input) throws IOException {
         String str = "";
 
@@ -23,10 +24,10 @@ public class Main {
         String line;
 
 
-        while((line = br.readLine())!=null){
-            str = str +" "+line;
+        while ((line = br.readLine()) != null) {
+            str = str + " " + line;
         }
-      return str;
+        return str;
     }
 
     /*
@@ -38,15 +39,15 @@ public class Main {
     5
     и возвращающий их сумму.
      */
-    public static int returnSum (String fileName) throws IOException {
+    public static int returnSum(String fileName) throws IOException {
         int sum = 0;
         String nextInt;
         BufferedReader br = new BufferedReader(new FileReader(fileName));
-                while ((nextInt =br.readLine()) != null){
-                    sum = sum + Integer.parseInt(nextInt);
-                }
+        while ((nextInt = br.readLine()) != null) {
+            sum = sum + Integer.parseInt(nextInt);
+        }
 
-                return sum;
+        return sum;
     }
     /*
     Написать метод, находящий самую длинную строчку в текстовом файле.
