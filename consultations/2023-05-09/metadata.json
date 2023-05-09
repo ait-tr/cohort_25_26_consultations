@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/consultation_2023_05_10/src/Main.java",
+    "./code/consultation_2023_05_10/src/Animal.java",
+    "./code/consultation_2023_05_10/src/Duck.java",
+    "./code/consultation_2023_05_10/src/Duckling.java",
+    "./code/consultation_2023_05_10/src/Penguin.java"
+
+      ],
+  "video": ""
+}
