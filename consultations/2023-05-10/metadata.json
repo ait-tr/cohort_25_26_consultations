@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/consultation_2023_05_10/src/Circle.java",
+    "./code/consultation_2023_05_10/src/Main.java",
+    "./code/consultation_2023_05_10/src/Rectangle.java",
+    "./code/consultation_2023_05_10/src/Shape.java",
+    "./code/consultation_2023_05_10/src/Square.java"
+
+      ],
+  "video": ""
+}
