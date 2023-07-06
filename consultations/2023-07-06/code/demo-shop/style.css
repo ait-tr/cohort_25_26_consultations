@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar {
+  background-color: #5FC4E7;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+}
+
+.link:hover {
+  color: #01A397;
+}
+
+
+
+.image {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.mirrored {
+  /* повернуть на 180 градусов */
+  transform: rotate(180deg);
+}
+
+.cards-container {
+  padding: 30px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  /* ширина равна 30 процентам от контейнера */
+  width: 30%;
+  /* ширина ниже которой не опускается */
+  min-width: 200px;
+  position: relative;
+}
+
+.relative-card {
+  position: relative;
+  /* top: 30px;
+  left: 50px; */
+}
+
+.rating {
+  position: absolute;
+  top: 30px;
+  right: -5px;
+  padding: 10px;
+  background-color: #BA1709;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.btn-buy {
+  position: absolute;
+  bottom: 10%;
+  left: 42%;
+  padding: 15px;
+  background-color: #DFD0D2;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-buy:hover {
+  color: white;
+  background-color: #BA1709;
+}
